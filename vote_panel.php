@@ -34,62 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <head>
     <title>Panel Głosowania</title>
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 30px;
-            background-color: #f8f9fa;
-        }
-        h2 {
-            margin-bottom: 20px;
-            color: #343a40;
-        }
-        .links a {
-            margin-right: 15px;
-            text-decoration: none;
-            background: #007BFF;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 5px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .vote-form {
-            margin-bottom: 20px;
-        }
-        .vote-form select {
-            padding: 10px;
-            font-size: 16px;
-            width: 100%;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-        }
-        .vote-form button {
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        .vote-form button:hover {
-            background-color: #0056b3;
-        }
-        .vote-info {
-            margin-top: 20px;
-            font-size: 16px;
-        }
-        .vote-info p {
-            margin: 10px 0;
-        }
-    </style>
+    
 </head>
 <body>
 
