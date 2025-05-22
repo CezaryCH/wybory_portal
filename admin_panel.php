@@ -37,86 +37,7 @@ $elections = $conn->query("SELECT * FROM elections ORDER BY id DESC");
     <meta charset="UTF-8">
     <title>Panel Admina</title>
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 30px;
-            background-color: #f8f9fa;
-        }
-
-        h2, h3 {
-            color: #343a40;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        form {
-            margin-bottom: 30px;
-        }
-
-        label {
-            display: block;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        input[type="text"],
-        input[type="datetime-local"],
-        textarea,
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            font-size: 16px;
-        }
-
-        textarea {
-            resize: vertical;
-            height: 80px;
-        }
-
-        button {
-            margin-top: 15px;
-            padding: 10px 20px;
-            background-color: #007BFF;
-            border: none;
-            color: white;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-
-        .election-item {
-            margin-bottom: 10px;
-            padding: 10px;
-            background: #f1f1f1;
-            border-radius: 5px;
-        }
-
-        .logout-link {
-            display: inline-block;
-            margin-bottom: 20px;
-            color: #007BFF;
-            text-decoration: none;
-        }
-
-        .logout-link:hover {
-            text-decoration: underline;
-        }
-    </style>
+    
 </head>
 <body>
 
@@ -171,4 +92,3 @@ $elections = $conn->query("SELECT * FROM elections ORDER BY id DESC");
 
 </body>
 </html>
-
