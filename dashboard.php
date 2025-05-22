@@ -17,27 +17,7 @@ $elections = $conn->query("SELECT * FROM elections");
     <title>Panel Główny</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 30px;
-        }
-        h2 {
-            margin-bottom: 20px;
-        }
-        .links a {
-            margin-right: 15px;
-            text-decoration: none;
-            background: #007BFF;
-            color: white;
-            padding: 8px 12px;
-            border-radius: 5px;
-        }
-        canvas {
-            margin-top: 40px;
-            max-width: 700px;
-        }
-    </style>
+    
 </head>
 <body>
     <h2>Panel Główny</h2>
@@ -109,6 +89,7 @@ $elections = $conn->query("SELECT * FROM elections");
 
 </body>
 </html>
+
 
 
 
